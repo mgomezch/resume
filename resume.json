@@ -1,0 +1,242 @@
+{
+
+  "basics": {
+
+    "name": "Manuel Gómez",
+    "label": "Software Architect",
+    "picture": "https://www.gravatar.com/avatar/6eb2a7da14744aa4c64b85abe41328d1?s=600",
+    "email": "targen@gmail.com",
+    "phone": "+58 (412) 011-3514",
+    "website": "https://mgomez.ch/",
+
+    "summary": "I’ve been coding since I was 11.  I’m very lazy, so I make computers do my job so I won’t have to.  I’m obsessed with software quality.  I make software scale.  I’ll do functional programming in C, imperative programming in Haskell and logic programming in SQL if it's the right solution.  I love teaching.  I strongly believe empathy is a core engineering value.",
+
+    "location": {
+      "address": "Calle Cubagua, edificio Cubagua 6, apartamento 5-B, Colinas de La California, Macaracuay",
+      "postalCode": "1071",
+      "city": "Caracas",
+      "countryCode": "VE",
+      "region": "Miranda"
+    },
+
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mgomezch",
+        "url": "https://www.linkedin.com/in/mgomezch"
+      },
+      {
+        "network": "Keybase",
+        "username": "mgomezch",
+        "url": "https://keybase.io/mgomezch"
+      },
+      {
+        "network": "GitHub",
+        "username": "mgomezch",
+        "url": "https://github.com/mgomezch"
+      },
+      {
+        "network": "Coinbase",
+        "username": "mgomezch",
+        "url": "https://www.coinbase.com/mgomezch"
+      },
+      {
+        "network": "Twitter",
+        "username": "mgomezch",
+        "url": "https://twitter.com/mgomezch"
+      },
+      {
+        "network": "Reddit",
+        "username": "mgomezch",
+        "url": "https://reddit.com/user/mgomezch"
+      },
+      {
+        "network": "Instagram",
+        "username": "migomezch",
+        "url": "https://www.instagram.com/migomezch"
+      },
+      {
+        "network": "Facebook",
+        "username": "mgomezch",
+        "url": "https://www.facebook.com/mgomezch"
+      }
+    ]
+
+  },
+
+
+  "work": [
+
+    {
+      "company": "Mahisoft",
+      "position": "Software developer",
+      "website": "http://mahisoft.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Full stack Web development using Django and PostgreSQL, containerized development environment and production service administration on Amazon Web Services using Docker Compose with service registration and discovery through Consul and centralized logging with Elasticsearch, Logstash and Kibana."
+    },
+
+    {
+      "company": "Predictvia",
+      "position": "Software architect",
+      "website": "http://predictvia.com/",
+      "startDate": "2015-05-03",
+      "endDate": "2016-07-15",
+      "summary": "Distributed scheduling for computationally intensive machine learning tasks on dynamically provisioned AWS EC2 worker instances based on dataset quality indicators produced by social network data acquisition processes, mostly developed in Python.  Mixed-model, multi-DBMS database architecture, logical design, implementation, operation, performance tuning, and implementation of mechanisms for specific distributed consistency and high availability guarantees for PostgreSQL, RDS Aurora, and MongoDB, with replication and automated failover.  Administration of 10 to 20 AWS EC2 instances with server and service monitoring using InfluxDB, Telegraf, Grafana."
+    },
+
+    {
+      "company": "Pictune",
+      "position": "CTO",
+      "website": "http://pictune.me/",
+      "startDate": "2015-04-05",
+      "endDate": "2015-09-25",
+      "summary": "Merging photography and algorithmic music composition on a social product for mobile platforms.  Product design, system architecture, infrastructure administration, database logical design and iOS application development for a social network focused on creative expression through procedural music generation from images.  HTTP API design under the REST architectural style and implementation using the Servant and Yesod Web frameworks for Haskell, PostgreSQL database design and implementation, and iOS 8 mobile application development using Swift, C and Haskell."
+    },
+
+    {
+      "company": "PRX Control Solutions",
+      "position": "Programming intern",
+      "website": "https://prxcontrolsolutions.com/",
+      "startDate": "2013-04-01",
+      "endDate": "2014-05-30",
+      "summary": "Support, development and architecture of a business intelligence application for the health insurance industry.  Development of a transpiler using Haskell for SQL generation to extend any generic relational database schema with full version control semantics, transparent SQL operation, and an HTTP querying and manipulation API designed under the REST architectural style.  Development of a scalable, dynamic rule system for fraud detection in health insurance claims.  Linux VPS server and Web service administration, monitoring, performance tuning and load balancing using HAproxy, Django, Gunicorn, Yesod, Keter, PHP, Apache and Nginx."
+    },
+
+    {
+      "company": "Sucucho",
+      "position": "Programmer",
+      "website": "http://sucucho.com/",
+      "startDate": "2013-02-03",
+      "endDate": "2013-04-26",
+      "summary": "E-commerce Web development in CakePHP, mostly in the front-end."
+    },
+
+    {
+      "company": "Universidad Simón Bolívar",
+      "position": "Undergraduate teaching assistant",
+      "website": "http://usb.ve/",
+      "startDate": "2011-09-01",
+      "endDate": "2015-07-01",
+      "summary": "I taught practical programming courses to my fellow undergraduate students for several years at my university, often being in charge of classes of about 20 to 30 students with considerable independence, and focusing on topics including a first introduction to programming in C, compilers, programming language theory, functional programming, and concurrent programming."
+    }
+
+  ],
+
+
+  "education": [
+    {
+      "institution": "Universidad Simón Bolívar",
+      "area": "Computer engineering",
+      "studyType": "Bachelor",
+      "startDate": "2005-09-19",
+      "gpa": "4.0",
+      "courses": [
+        "Programming language design and compiler construction",
+        "Parallel, concurrent and distributed programming",
+        "Functional programming",
+        "Computer graphics"
+      ]
+    }
+  ],
+
+
+  "skills": [
+
+    {
+      "name": "Software architecture",
+      "level": "Intermediate"
+    },
+
+    {
+      "name": "Functional programming",
+      "level": "Advanced"
+    },
+
+    {
+      "name": "System administration",
+      "level": "Advanced"
+    },
+
+    {
+      "name": "Database administration",
+      "level": "Advanced"
+    },
+
+    {
+      "name": "PostgreSQL",
+      "level": "Advanced"
+    },
+
+    {
+      "name": "MySQL",
+      "level": "Intermediate"
+    },
+
+    {
+      "name": "Haskell",
+      "level": "Advanced"
+    },
+
+    {
+      "name": "C++",
+      "level": "Advanced"
+    },
+
+    {
+      "name": "C",
+      "level": "Advanced"
+    },
+
+    {
+      "name": "Python",
+      "level": "Advanced"
+    },
+
+    {
+      "name": "Git",
+      "level": "Advanced"
+    },
+
+    {
+      "name": "Ruby",
+      "level": "Intermediate"
+    },
+
+    {
+      "name": "Django",
+      "level": "Intermediate"
+    },
+
+    {
+      "name": "Java",
+      "level": "Intermediate"
+    },
+
+    {
+      "name": "Amazon Web Services",
+      "level": "Intermediate"
+    }
+
+  ],
+
+
+  "languages": [
+
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+
+    {
+      "language": "French",
+      "fluency": "Elementary"
+    }
+
+  ]
+}
