@@ -71,8 +71,7 @@
       "company": "Mahisoft",
       "position": "Software developer",
       "website": "http://mahisoft.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
+      "startDate": "2016-08-08",
       "summary": "Full stack Web development using Django and PostgreSQL, containerized development environment and production service administration on Amazon Web Services using Docker Compose with service registration and discovery through Consul and centralized logging with Elasticsearch, Logstash and Kibana."
     },
 
