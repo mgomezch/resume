@@ -178,6 +178,11 @@
     },
 
     {
+      "name": "Python",
+      "level": "Advanced"
+    },
+
+    {
       "name": "C++",
       "level": "Advanced"
     },
@@ -188,7 +193,7 @@
     },
 
     {
-      "name": "Python",
+      "name": "Django",
       "level": "Advanced"
     },
 
@@ -203,12 +208,12 @@
     },
 
     {
-      "name": "Django",
+      "name": "Java",
       "level": "Intermediate"
     },
 
     {
-      "name": "Java",
+      "name": "Docker",
       "level": "Intermediate"
     },
 
