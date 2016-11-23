@@ -59,6 +59,26 @@
         "network": "Facebook",
         "username": "mgomezch",
         "url": "https://www.facebook.com/mgomezch"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "mgomezch",
+        "url": "https://stackoverflow.com/story/mgomezch"
+      },
+      {
+        "network": "about.me",
+        "username": "mgomezch",
+        "url": "https://about.me/mgomezch"
+      },
+      {
+        "network": "visualize.me",
+        "username": "mgomezch",
+        "url": "http://vizualize.me/mgomezch"
+      },
+      {
+        "network": "JSON Resume",
+        "username": "mgomezch",
+        "url": "https://registry.jsonresume.org/mgomezch"
       }
     ]
 
