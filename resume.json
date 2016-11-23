@@ -72,7 +72,7 @@
       "position": "Software developer",
       "website": "http://mahisoft.com",
       "startDate": "2016-08-08",
-      "summary": "Full stack Web development using Django and PostgreSQL, containerized development environment and production service administration on Amazon Web Services using Docker Compose with service registration and discovery through Consul and centralized logging with Elasticsearch, Logstash and Kibana."
+      "summary": "Full stack Web development using Python with Django and PostgreSQL, containerized development environment and production service administration on Amazon Web Services using Docker Compose with service registration and discovery through Consul and centralized logging with Elasticsearch, Logstash and Kibana, and monitoring using Telegraf, InfluxDB, Grafana and cAdvisor.  Web service development using Spring and MySQL through Spring Boot, JPA, Maven and Docker."
     },
 
     {
