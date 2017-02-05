@@ -1,0 +1,647 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Manuel Gómez</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Manuel Gómez
+					</h1>
+					<h2>
+						Software Architect
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">targen@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+58 (414) 372-6393</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://mgomez.ch/">https://mgomez.ch/</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>I’ve been coding since I was 11.  I’m very lazy, so I make computers do my job so I won’t have to.  I’m obsessed with software quality.  I make software scale.  I’ll do functional programming in C, imperative programming in Haskell and logic programming in SQL if it&#x27;s the right solution.  I love teaching.  I strongly believe empathy is a core engineering value.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Keybase
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://keybase.io/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Coinbase
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.coinbase.com/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Reddit
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://reddit.com/user/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Instagram
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.instagram.com/migomezch">migomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Facebook
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.facebook.com/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						StackOverflow
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://stackoverflow.com/story/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						about.me
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://about.me/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						visualize.me
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://vizualize.me/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						JSON Resume
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://registry.jsonresume.org/mgomezch">mgomezch</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Mahisoft</span>
+					<span class="date">
+						2016-08-08 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://mahisoft.com">http://mahisoft.com</a>
+				</div>
+				<div class="position">
+					Software developer
+				</div>
+				<div class="summary">
+					<p>Full stack Web development using Python with Django and PostgreSQL, containerized development environment and production service administration on Amazon Web Services using Docker Compose with service registration and discovery through Consul and centralized logging with Elasticsearch, Logstash and Kibana, and monitoring using Telegraf, InfluxDB, Grafana and cAdvisor.  Web service development using Spring and MySQL through Spring Boot, JPA, Maven and Docker.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Predictvia</span>
+					<span class="date">
+						2015-05-03 — 2016-07-15
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://predictvia.com/">http://predictvia.com/</a>
+				</div>
+				<div class="position">
+					Software architect
+				</div>
+				<div class="summary">
+					<p>Distributed scheduling for computationally intensive machine learning tasks on dynamically provisioned AWS EC2 worker instances based on dataset quality indicators produced by social network data acquisition processes, mostly developed in Python.  Mixed-model, multi-DBMS database architecture, logical design, implementation, operation, performance tuning, and implementation of mechanisms for specific distributed consistency and high availability guarantees for PostgreSQL, RDS Aurora, and MongoDB, with replication and automated failover.  Administration of 10 to 20 AWS EC2 instances with server and service monitoring using InfluxDB, Telegraf, Grafana.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Pictune</span>
+					<span class="date">
+						2015-04-05 — 2015-09-25
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://pictune.me/">http://pictune.me/</a>
+				</div>
+				<div class="position">
+					CTO
+				</div>
+				<div class="summary">
+					<p>Merging photography and algorithmic music composition on a social product for mobile platforms.  Product design, system architecture, infrastructure administration, database logical design and iOS application development for a social network focused on creative expression through procedural music generation from images.  HTTP API design under the REST architectural style and implementation using the Servant and Yesod Web frameworks for Haskell, PostgreSQL database design and implementation, and iOS 8 mobile application development using Swift, C and Haskell.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>PRX Control Solutions</span>
+					<span class="date">
+						2013-04-01 — 2014-05-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://prxcontrolsolutions.com/">https://prxcontrolsolutions.com/</a>
+				</div>
+				<div class="position">
+					Programming intern
+				</div>
+				<div class="summary">
+					<p>Support, development and architecture of a business intelligence application for the health insurance industry.  Development of a transpiler using Haskell for SQL generation to extend any generic relational database schema with full version control semantics, transparent SQL operation, and an HTTP querying and manipulation API designed under the REST architectural style.  Development of a scalable, dynamic rule system for fraud detection in health insurance claims.  Linux VPS server and Web service administration, monitoring, performance tuning and load balancing using HAproxy, Django, Gunicorn, Yesod, Keter, PHP, Apache and Nginx.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Sucucho</span>
+					<span class="date">
+						2013-02-03 — 2013-04-26
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://sucucho.com/">http://sucucho.com/</a>
+				</div>
+				<div class="position">
+					Programmer
+				</div>
+				<div class="summary">
+					<p>E-commerce Web development in CakePHP, mostly in the front-end.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Universidad Simón Bolívar</span>
+					<span class="date">
+						2011-09-01 — 2015-07-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://usb.ve/">http://usb.ve/</a>
+				</div>
+				<div class="position">
+					Undergraduate teaching assistant
+				</div>
+				<div class="summary">
+					<p>I taught practical programming courses to my fellow undergraduate students for several years at my university, often being in charge of classes of about 20 to 30 students with considerable independence, and focusing on topics including a first introduction to programming in C, compilers, programming language theory, functional programming, and concurrent programming.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Universidad Simón Bolívar</span>
+					<span class="date">
+						2005-09-19 — 
+					</span>
+				</h4>
+				<div class="area">
+					Computer engineering
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Programming language design and compiler construction</li>
+					<li>Parallel, concurrent and distributed programming</li>
+					<li>Functional programming</li>
+					<li>Computer graphics</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Software architecture</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Functional programming</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>System administration</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Database administration</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>PostgreSQL</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>MySQL</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Haskell</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Python</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>C++</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>C</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Django</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Git</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Ruby</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Java</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Docker</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Amazon Web Services</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Spanish</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Fluent
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>French</strong>
+				</div>
+				<div class="fluency">
+					Elementary
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+	</div>
+	
+	</body>
+</html>
