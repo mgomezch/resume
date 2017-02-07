@@ -21,9 +21,14 @@
 
     "profiles": [
       {
-        "network": "LinkedIn",
-        "username": "mgomezch",
-        "url": "https://www.linkedin.com/in/mgomezch"
+        "network": "Résumé",
+        "username": "PDF",
+        "url": "https://mgomez.ch/mgomezch-resume.pdf"
+      },
+      {
+        "network": "Résumé",
+        "username": "Office Open XML (DOCX)",
+        "url": "https://mgomez.ch/mgomezch-resume.docx"
       },
       {
         "network": "Keybase",
