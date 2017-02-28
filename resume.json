@@ -6,17 +6,17 @@
     "label": "Software Architect",
     "picture": "https://www.gravatar.com/avatar/6eb2a7da14744aa4c64b85abe41328d1?s=600",
     "email": "targen@gmail.com",
-    "phone": "+58 (414) 372-6393",
+    "phone": "+54 9 (11) 2709-0039",
     "website": "https://mgomez.ch/",
 
     "summary": "I’ve been coding since I was 11.  I’m very lazy, so I make computers do my job so I won’t have to.  I’m obsessed with software quality.  I make software scale.  I’ll do functional programming in C, imperative programming in Haskell and logic programming in SQL if it's the right solution.  I love teaching.  I strongly believe empathy is a core engineering value.",
 
     "location": {
-      "address": "Calle Cubagua, edificio Cubagua 6, apartamento 5-B, Colinas de La California, Macaracuay",
-      "postalCode": "1071",
-      "city": "Caracas",
-      "countryCode": "VE",
-      "region": "Miranda"
+      "address": "Azcuénaga 950, 2º B, Recoleta",
+      "postalCode": "C1115AAD",
+      "city": "Buenos Aires (Capital Federal)",
+      "countryCode": "AR",
+      "region": "Ciudad Autónoma de Buenos Aires"
     },
 
     "profiles": [
