@@ -1,1 +1,1 @@
-This repository contains the source code for my résumé, both [the online JSON Resume hosted at their registry](https://registry.jsonresume.org/mgomezch) and [the static PDF version hosted here](mgomezch-resume.pdf).
+This repository contains the source code for my résumé, both [the online JSON Resume hosted at their registry](https://registry.jsonresume.org/mgomezch) and [the static PDF version hosted on my personal website](https://mgomez.ch/mgomezch-resume.pdf).
